@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="banner">
+        <div>
+            <p>20% de descuento en todos los productos</p>
+        </div>
+    </div>
+    <header>
+        <div class="header">
+            <img src="img/logo.png" alt="Logo">
+            <h1>Nombre Tienda</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="registro.html">Registrarme</a></li>
+            <li><a href="login.html">Ingresar</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="new-form">
+                <h2>Añadí tu super</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+                <form action="#" class="form-container">
+                    <div>
+                        <div>
+                            <label for="nombre">Nombre *</label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+                        <div>
+                            <label for="especie">Especie *</label>
+                            <select name="especie" id="especie">
+                                <option value="humano">Humano</option>
+                                <option value="androide">Androide</option>
+                                <option value="extraterrestre">Extraterrestre</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label for="fecha">Fecha</label>
+                            <span class="date-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                                <input type="date" name="fecha" id="fecha">
+                            </span>
+                        </div>
+                        <div>
+                            <label for="foto">Foto</label>
+                            <input type="file" id="foto">
+                        </div>
+                    </div>
+                    <div class="form-3">
+                        <div>
+                            <textarea name="info" placeholder="Descripción"></textarea>
+                        </div>
+                        <div>
+                            <label id="power">Poderes</label>
+                                <span class="checkbox">
+                                    <label><input type="checkbox" value="volar"> Volar</label>
+                                    <label><input type="checkbox" value="volar"> Súper inteligencia</label>
+                                    <label><input type="checkbox" value="volar"> Vista de rayo láser</label>
+                                    <label><input type="checkbox" value="volar"> Billetera gorda</label>
+                                </span>
+                            <hr>
+                            <label id="type">Tipo de héroe</label>
+                                <span class="ratio">
+                                    <label for="heroe"><input type="radio" id="heroe" name="tipo" value="heroe">Héroe / Heroína</label>
+                                    <label for="villano"><input type="radio" id="villano" name="tipo" value="villano">Villano / Villana</label>
+                                </span>
+                        </div>
+                    </div>
+                    <button type="submit">Añadir</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a <span>CHARLIE BLUE</span></p>
+    </footer>
+</body>
+
+</html>
