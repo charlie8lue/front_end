@@ -214,7 +214,7 @@ footer ul {
         height: 100vh;
     }
     #card-section, main section:nth-child(2), footer {
-        padding: 20px 10px 0;
+        padding: 20px 10px;
     }
     .formulario {
         padding-bottom: 0;
